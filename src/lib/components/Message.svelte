@@ -1,6 +1,7 @@
 <!-- TypeScript(JavaScript) -->
 <script lang="ts">
-	let message = 'Svelte, Hello World!';
+	// 分割代入でprops受け取り
+	let { message } = $props();
 </script>
 
 <!-- HTML -->
