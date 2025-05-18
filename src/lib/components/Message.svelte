@@ -1,9 +1,7 @@
 <!-- TypeScript(JavaScript) -->
 <script lang="ts">
 	// 分割代入でprops受け取り
-	let { isAttend } = $props();
-
-	let message = isAttend ? 'あずにゃん参加！' : 'あずにゃん不参加...😭';
+	let { message } = $props();
 </script>
 
 <!-- HTML -->
