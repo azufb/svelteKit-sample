@@ -10,6 +10,7 @@
 	class="button"
 	class:successButton={props.theme === BUTTON_THEME.SUCCESS}
 	class:errorButton={props.theme === BUTTON_THEME.ERROR}
+	onclick={props.onClick}
 >
 	{props.label}
 </button>

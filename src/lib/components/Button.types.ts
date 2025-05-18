@@ -7,4 +7,5 @@ export enum BUTTON_THEME {
 export interface ButtonProps {
 	label: string;
 	theme: BUTTON_THEME;
+	onClick: () => void;
 }
